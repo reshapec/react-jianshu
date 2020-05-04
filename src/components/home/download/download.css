@@ -1,0 +1,33 @@
+.download {
+    margin-bottom: 30px;
+    padding: 10px 22px;
+    width: 234px;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.download .code {
+    width: 60px;
+    height: 60px;
+    opacity: .85;
+    vertical-align: middle;
+}
+
+.download .info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
+    box-sizing: border-box;
+}
+
+.download .title {
+    font-size: 15px;
+    color: #333;
+}
+
+.download .description {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #999;
+}

@@ -1,0 +1,163 @@
+.container {
+  height: 56px;
+  position: relative;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.container .navLogo {
+    height: 56px;
+    width: 100px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: block;
+}
+
+.container .nav {
+    width: 945px;
+    height: 56px;
+    margin: 0 auto;
+    padding-right: 70px;
+    box-sizing: border-box;
+}
+
+.container .nav div:nth-child(1) {
+    float: left;
+    padding: 17px 15px;
+    margin-right: 10px;
+}
+
+.container .nav div:nth-child(2) {
+    float: left;
+    color: #ea6f5a;
+    margin-right: 10px;
+    padding: 17px 15px;
+}
+
+.container .nav .searchWrapper {
+    position: relative;
+    float: left;
+}
+
+.container .nav .searchWrapper .navSearch {
+    width: 160px;
+    height: 38px;
+    margin-top: 9px;
+    margin-left: 20px;
+    padding: 0 40px 0 20px;
+    box-sizing:border-box;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    background-color: #eee;
+    color: #666666;
+}
+
+.container .nav .searchWrapper .searchIconfont {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    /*background-color: #ffffff;*/
+    width: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container .nav .searchWrapper .changeSearchIconfont {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: #969696;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container .nav .searchWrapper .focused {
+    width: 240px;
+}
+
+.container .nav div:nth-child(4) {
+    float: right;
+    color: #969696;
+    margin: 11px 6px 0 10px;
+    padding: 6px 12px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.container .nav img {
+    float: right;
+    padding: 15px 0;
+    margin: 0 12px;
+    width: 56.8167px;
+    height: 25px;
+}
+
+.container .nav .rowIconfont {
+    float: right;
+    line-height: 20px;
+    padding: 17px 10px;
+    font-size: 24px;
+    color: #969696;
+    width: 24px;
+    height: 26px;
+}
+
+.container .addition {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 56px;
+}
+
+.container .addition .register {
+    float: right;
+    line-height: 38px;
+    margin-top: 9px;
+    margin-right: 20px;
+    padding: 0 20px;
+    border: 1px solid #ec6149;
+    border-radius: 19px;
+    color: #ec6149;
+}
+
+.container .addition .register:hover {
+    color: #ec6149;
+    border-color: #ec6149;
+    background-color: rgba(236,97,73,.05);
+    cursor: pointer;
+}
+
+.container .addition .write {
+    float: right;
+    line-height: 38px;
+    margin-top: 9px;
+    margin-right: 20px;
+    padding: 0 20px;
+    border: 1px solid #ec6149;
+    border-radius: 19px;
+    color: #fff;
+    background-color: #ec6149;
+}
+
+.container .addition .write:hover {
+    color: #fff;
+    background-color: #ec6149;
+    cursor: pointer;
+}
+
+.searchInfo {
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 240px;
+    padding: 0 20px;
+    height: 120px;
+    background-color: green;
+    display: inline-block;
+}

@@ -1,0 +1,61 @@
+.listContainer {
+    width: 625px;
+    min-height: 140px;
+    margin: 0 0 15px;
+    padding: 15px 2px 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.listContainer img {
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid #f0f0f0;
+    float: right;
+    vertical-align: middle;
+}
+
+.listContainer .listContext {
+    width: 458px;
+    float: left;
+}
+
+.listContainer .listContext .title {
+    display: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333;
+}
+
+.listContainer .listContext .abstract {
+    margin: 0 0 8px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999;
+}
+
+.listContainer .listContext .watch {
+    margin-right: 10px;
+    color: #ea6f5a!important;
+}
+
+.listContainer .listContext div span {
+    margin-right: 10px;
+    font-size: 12px;
+    color: #b4b4b4;
+}
+
+.loadMore {
+    width: 625px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 30px auto 60px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #a5a5a5;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}

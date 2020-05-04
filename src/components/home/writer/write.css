@@ -1,0 +1,70 @@
+.recommendedAuthorWrap {
+    width: 278px;
+    height: 340px;
+    margin-bottom: 20px;
+    padding-top: 0;
+    font-size: 13px;
+    text-align: center;
+    /*border: 1px solid #dcdcdc;*/
+    /*border-radius: 4px;*/
+}
+
+.recommendedAuthorWrap .title {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.recommendedAuthorWrap .title .author {
+    font-size: 14px;
+    color: #969696;
+}
+
+.recommendedAuthorWrap .title .pageChange {
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+    color: #969696;
+}
+
+.recommendedAuthorWrap .title .pageChange:hover {
+    cursor: pointer;
+}
+
+.recommendedAuthorWrap .list {
+    margin: 0 0 20px;
+    text-align: left;
+    list-style: none;
+}
+
+.recommendedAuthorWrap .list .container {
+    margin-top: 15px;
+}
+.recommendedAuthorWrap .list .container img {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.recommendedAuthorWrap .list .container .follow {
+    float: right;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 13px;
+    color: #42c02e;
+}
+
+.recommendedAuthorWrap .list .container .name {
+    padding-top: 5px;
+    margin-right: 60px;
+    font-size: 14px;
+    display: block;
+}
+
+.recommendedAuthorWrap .list .container .detail {
+    margin-top: 2px;
+    font-size: 12px;
+    color: #969696;
+}
